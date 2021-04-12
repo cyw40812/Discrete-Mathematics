@@ -1,0 +1,2 @@
+2017/06/15-14:38 |1| is_cheetah,T:The animal is a cheetah ฐ\.
+2017/06/15-14:39 |1| is_giraffe,T:The animal is a giraffe ช๘ภVณภ.

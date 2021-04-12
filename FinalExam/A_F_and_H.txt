@@ -1,0 +1,49 @@
+F[1] = has_hair => TF0
+F[2] = make_milk => TF0
+F[3] = eat_meat => TF0
+F[4] = pointed_teeth => TF0
+F[5] = has_claws => TF0
+F[6] = forward_eyes => TF0
+F[7] = color => AB0
+F[8] = texture => AB0
+F[9] = has_hoofs => TF0
+F[10] = chew_cud => TF0
+F[11] = has_long_neck => TF0
+F[12] = has_long_legs => TF0
+F[13] = has_feathers => TF0
+F[14] = can_fly => TF0
+F[15] = lay_eggs => TF0
+F[16] = can_swim => TF0
+F[17] = can_fly_well => TF0
+
+M[1] = is_mammal => T
+M[2] = is_carnivore => T
+M[3] = is_ungulate => T
+M[4] = is_bird => T
+
+H[1] = is_cheetah => T => The animal is a cheetah 豹.
+H[2] = is_tiger => T => The animal is a tiger 虎.
+H[3] = is_giraffe => T => The animal is a giraffe 長頸鹿.
+H[4] = is_zebra => T => The animal is a zebra 斑馬.
+H[5] = is_ostrich => T => The animal is a ostrich 駝鳥.
+H[6] = is_penguin => T => The animal is a penguin 企鵝.
+H[7] = is_albatross => T => The animal is an albatross 信天翁.
+
+P[1] = has_hoofs => Does the animal has hoofs 有蹄? T. true, F. false, 0. unknown 
+P[2] = chew_cud => Does the animal chew cud 反芻? T. true, F. false, 0. unknown 
+P[3] = lay_eggs => Does the animal lay eggs 生蛋? T. true, F. false, 0. unknown 
+P[4] = has_feathers => Does the animal has feathers 有羽毛? T. true, F. false, 0. unknown 
+P[5] = has_long_neck => Does the animal has long neck 長脖子? T. true, F. false, 0. unknown 
+P[6] = has_long_legs => Does the animal has long legs 長腿? T. true, F. false, 0. unknown 
+P[7] = can_swim => Can the animal swim 會游泳? T. true, F. false, 0. unknown 
+P[8] = can_fly => Can the animal fly 會飛? T. true, F. false, 0. unknown 
+P[9] = can_fly_well => Does the animal fly well 善飛? T. true, F. false, 0. unknown 
+P[10] = has_hair => Does the animal has hair 有毛髮? T. true, F. false, 0. unknown 
+P[11] = make_milk => Does the animal make milk 產奶? T. true, F. false, 0. unknown 
+P[12] = eat_meat => Does the animal eat meat 吃肉? T. true, F. false, 0. unknown 
+P[13] = pointed_teeth => Are the teeth of animal pointed 牙齒犀利? T. true, F. false, 0. unknown 
+P[14] = has_claws => Does the animal has claws 有爪? T. true, F. false, 0. unknown 
+P[15] = forward_eyes => Are the eyes of animal forward 眼向前方? T. true, F. false, 0. unknown 
+P[16] = color => What is the color of animal? A. tawny, B. black-and-white, 0. unknown 
+P[17] = texture => What is the texture of animal? A. black_stripes, B. dark_sports, 0. unknown 
+

@@ -1,0 +1,3 @@
+has_hoofs = T
+has_hair = T
+

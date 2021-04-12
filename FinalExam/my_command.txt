@@ -1,0 +1,37 @@
+OPENRULE A_rules.txt
+LISTRULE
+ADDRULE
+
+RULE mammal_1
+IF can_fly = T
+THEN is_mammal = T
+
+RULE a
+IF has_hair = T
+THEN is_mammal = T
+
+RULE b
+IF has_hair = T
+THEN is_mammal = F
+
+RULE c
+IF is_mammal = T
+THEN has_hair = F
+
+RULE d
+IF is_albatross = T
+THEN is_mammal = F
+
+OPENCLAUSE A_clause.txt
+ADDCLAUSE can_fly = T
+LISTCLAUSE
+CLEANCLAUSE
+
+
+INFERENCE
+DEBUG
+RECORD
+QUIT
+
+
+OPENRULE T_rules.txt

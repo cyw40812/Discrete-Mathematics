@@ -1,0 +1,3 @@
+is_albatross = T   => is_mammal = T
+
+

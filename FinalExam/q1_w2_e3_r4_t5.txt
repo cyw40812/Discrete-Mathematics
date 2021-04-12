@@ -1,0 +1,4 @@
+RULE d
+IF is_albatross = T
+THEN is_mammal = F
+

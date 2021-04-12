@@ -1,0 +1,17 @@
+has_hair = T   => is_mammal = T
+make_milk = T   => is_mammal = T
+eat_meat = T   => is_carnivore = T
+pointed_teeth = T & has_claws = T & forward_eyes = T   => is_carnivore = T
+is_mammal = T & has_hoofs = T   => is_ungulate = T
+is_mammal = T & chew_cud = T   => is_ungulate = T
+has_feathers = T   => is_bird = T
+can_fly = T & lay_eggs = T   => is_bird = T
+
+is_mammal = T & is_carnivore = T & color = A & texture = B   => is_cheetah = T
+is_mammal = T & is_carnivore = T & color = A & texture = A   => is_tiger = T
+is_ungulate = T & has_long_neck = T & has_long_legs = T & texture = B   => is_giraffe = T
+is_ungulate = T & texture = A   => is_zebra = T
+is_bird = T & can_fly = F & has_long_neck = T & has_long_legs = T & color = B   => is_ostrich = T
+is_bird = T & can_fly = F & can_swim = T & color = B   => is_penguin = T
+is_bird = T & can_fly_well = T   => is_albatross = T
+
